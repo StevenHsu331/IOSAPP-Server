@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0"> 
+  <!-- <servlet>
+  	<servlet-name>getData</servlet-name>
+  	<servlet-class>com.Steven.getFormData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>getData</servlet-name>
+  	<url-pattern>/getData</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>testSession</servlet-name>
+  	<servlet-class>com.Steven.testSession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>testSession</servlet-name>
+  	<url-pattern>/testSession</url-pattern>
+  </servlet-mapping> -->
+  <welcome-file-list>
+        <welcome-file>Login.jsp</welcome-file>
+</welcome-file-list>
+  <context-param>
+  	<param-name>connectionURL</param-name>
+  	<param-value>jdbc:mysql://localhost:3306/JavaProject</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>connectionUser</param-name>
+  	<param-value>root</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>connectionPassword</param-name>
+  	<param-value>Boss54738891</param-value>
+  </context-param>
+</web-app>
